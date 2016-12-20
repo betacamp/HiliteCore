@@ -17,6 +17,9 @@
 		1A9C1A261E091E3100D4525D /* PlayerProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A241E091E3100D4525D /* PlayerProfileCard.swift */; };
 		1A9C1A271E091E3100D4525D /* PlayerProfileSocialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A251E091E3100D4525D /* PlayerProfileSocialCard.swift */; };
 		1A9C1A291E091EA500D4525D /* TeamCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A281E091EA500D4525D /* TeamCard.swift */; };
+		1A9C1A341E0922B800D4525D /* APIv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A321E0922B800D4525D /* APIv1.swift */; };
+		1A9C1A351E0922B800D4525D /* APIv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A331E0922B800D4525D /* APIv2.swift */; };
+		1A9C1A371E0923F800D4525D /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A361E0923F800D4525D /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		1A9C1A241E091E3100D4525D /* PlayerProfileCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerProfileCard.swift; sourceTree = "<group>"; };
 		1A9C1A251E091E3100D4525D /* PlayerProfileSocialCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerProfileSocialCard.swift; sourceTree = "<group>"; };
 		1A9C1A281E091EA500D4525D /* TeamCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamCard.swift; sourceTree = "<group>"; };
+		1A9C1A321E0922B800D4525D /* APIv1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIv1.swift; sourceTree = "<group>"; };
+		1A9C1A331E0922B800D4525D /* APIv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIv2.swift; sourceTree = "<group>"; };
+		1A9C1A361E0923F800D4525D /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,10 @@
 		1A9C1A001E09195800D4525D /* HiliteCore */ = {
 			isa = PBXGroup;
 			children = (
+				1A9C1A321E0922B800D4525D /* APIv1.swift */,
+				1A9C1A331E0922B800D4525D /* APIv2.swift */,
 				1A9C1A1E1E091D5300D4525D /* CharityIdentityCard.swift */,
+				1A9C1A361E0923F800D4525D /* Environment.swift */,
 				1A9C1A011E09195800D4525D /* HiliteCore.h */,
 				1A9C1A021E09195800D4525D /* Info.plist */,
 				1A9C1A241E091E3100D4525D /* PlayerProfileCard.swift */,
@@ -223,10 +232,13 @@
 				1A9C1A261E091E3100D4525D /* PlayerProfileCard.swift in Sources */,
 				1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */,
 				1A9C1A191E09198400D4525D /* UserIdentityCard.swift in Sources */,
+				1A9C1A351E0922B800D4525D /* APIv2.swift in Sources */,
 				1A9C1A271E091E3100D4525D /* PlayerProfileSocialCard.swift in Sources */,
 				1A9C1A291E091EA500D4525D /* TeamCard.swift in Sources */,
 				1A9C1A1B1E091D1400D4525D /* ProducerProfile.swift in Sources */,
 				1A9C1A1D1E091D2200D4525D /* ProducerProfileStats.swift in Sources */,
+				1A9C1A341E0922B800D4525D /* APIv1.swift in Sources */,
+				1A9C1A371E0923F800D4525D /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

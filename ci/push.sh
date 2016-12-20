@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pod trunk push HiliteHttp.podspec --allow-warnings
+pod trunk push HiliteCore.podspec --allow-warnings
