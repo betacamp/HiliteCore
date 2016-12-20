@@ -8,20 +8,20 @@ public class APIv2 {
         return baseServicesUrl()?.appendingPathComponent("/v2/client/producer")
     }
     
-    public func getProducerUrl(_ userId: UserId!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId!)")
+    public func getProducerUrl(_ userId: UserId) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)")
     }
     
-    public func updateProducerUrl(_ userId: UserId!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId!)")
+    public func updateProducerUrl(_ userId: UserId) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)")
     }
 
     public func baseServicesUrl() -> URL? {
         return URL(string: "https://"+env.servicesHost()!);
     }
 
-    public func producerAyosUrl(_ userId: String!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId!)/ayos")
+    public func producerAyosUrl(_ userId: String) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)/ayos")
     }
     
     public func initiateProducerSignatureImageUploadUrl(_ userId: String?) -> URL? {
@@ -30,21 +30,21 @@ public class APIv2 {
         return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)/initiateSignatureImageUpload")
     }
 
-    public func initiateUploadUrlTaskId(_ taskId: String!) -> URL? {
+    public func initiateUploadUrlTaskId(_ taskId: String) -> URL? {
         return baseServicesUrl()?
-            .appendingPathComponent("v2").appendingPathComponent("deliverable").appendingPathComponent(taskId!)
+            .appendingPathComponent("v2").appendingPathComponent("deliverable").appendingPathComponent(taskId)
             .appendingPathComponent("initiateUpload")
     }
     
-    public func completeUploadUrlWithTaskId(_ taskId: String!) -> URL? {
+    public func completeUploadUrlWithTaskId(_ taskId: String) -> URL? {
         return baseServicesUrl()?
             .appendingPathComponent("v2")
             .appendingPathComponent("deliverable")
-            .appendingPathComponent(taskId!)
+            .appendingPathComponent(taskId)
             .appendingPathComponent("completeUpload")
     }
     
-    public func searchCharitiesUrlForTerm(_ term: String!, userIdentityCard: UserIdentityCard!) -> URL? {
+    public func searchCharitiesUrlForTerm(_ term: String, userIdentityCard: UserIdentityCard) -> URL? {
         let escapedString = term.addingPercentEncoding(withAllowedCharacters: CharacterSet.alphanumerics)
         
         if let escaped = escapedString, let verticalHandle = userIdentityCard.firstProducerProfileVerticalHandle(), let urlString = baseServicesUrl()?.appendingPathComponent("/v2/\(verticalHandle)/charity?search=\(escaped)").absoluteString {
@@ -54,12 +54,12 @@ public class APIv2 {
         return nil
     }
 
-    public func initiateProducerPhotoUploadUrl(_ userId: String!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId!)/initiatePhotoUpload")
+    public func initiateProducerPhotoUploadUrl(_ userId: String) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)/initiatePhotoUpload")
     }
 
-    public func tasksUrlWithUserId(_ userId: String!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId!)/tasks")
+    public func tasksUrlWithUserId(_ userId: String) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)/tasks")
     }
     
     public func hiliteTasksUrl() -> URL! {
@@ -82,30 +82,30 @@ public class APIv2 {
         return url
     }
 
-    public func taskUrlWithTaskId(_ taskId: String!, userId: String!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId!)/task/\(taskId!)")
+    public func taskUrlWithTaskId(_ taskId: String, userId: String) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)/task/\(taskId)")
     }
     
-    public func registerDeviceTokenUrl(_ userId: UserId!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId!)/registerIosDeviceToken")
+    public func registerDeviceTokenUrl(_ userId: UserId) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)/registerIosDeviceToken")
     }
     
-    public func unregisterDeviceTokenUrl(_ userId: UserId!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId!)/unregisterIosDeviceToken")
+    public func unregisterDeviceTokenUrl(_ userId: UserId) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)/unregisterIosDeviceToken")
     }
 
-    public func charitiesUrlForVerticalHandle(_ verticalHandle: String!) -> URL? {
-        return baseServicesUrl()?.appendingPathComponent("/v2/vertical/\(verticalHandle!)/charities")
+    public func charitiesUrlForVerticalHandle(_ verticalHandle: String) -> URL? {
+        return baseServicesUrl()?.appendingPathComponent("/v2/vertical/\(verticalHandle)/charities")
     }
 
-    public func supportUrlForUserIdentityCard(_ userIdentityCard: UserIdentityCard!) -> URL? {
+    public func supportUrlForUserIdentityCard(_ userIdentityCard: UserIdentityCard) -> URL? {
         if let verticalHandle = userIdentityCard.producerProfile()?.keys.first {
             return baseServicesUrl()?.appendingPathComponent("/v2/\(verticalHandle)/api/support")
         }
         return nil
     }
     
-    public func createCharityUrlWithName(_ name: String!, forUserIdentityCard userIdentityCard: UserIdentityCard?) -> URL? {
+    public func createCharityUrlWithName(_ name: String, forUserIdentityCard userIdentityCard: UserIdentityCard?) -> URL? {
         if let userId = userIdentityCard?.userId() {
             return baseServicesUrl()?.appendingPathComponent("/v2/producer/\(userId)/charity")
         }
