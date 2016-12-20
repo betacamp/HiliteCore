@@ -3,7 +3,7 @@ import Foundation
 public class APIv1 {
     let env: Environment!
     
-    init() {
+    public init() {
         env = Environment();
     }
     
