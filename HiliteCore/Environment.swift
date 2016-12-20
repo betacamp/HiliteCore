@@ -6,7 +6,7 @@ public class Environment {
     let configuration: String
     let environments: NSDictionary
     
-    init() {
+    public init() {
         configuration = Bundle.main.infoDictionary?["Configuration"] as! String
 
         let envsPList = Bundle.main.path(forResource: "Environments", ofType: "plist")!;
