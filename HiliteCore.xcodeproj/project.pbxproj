@@ -30,6 +30,7 @@
 		1A9C1A471E092FB900D4525D /* JSONBackedPlayerProfileSocialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A461E092FB900D4525D /* JSONBackedPlayerProfileSocialCard.swift */; };
 		1A9C1A491E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A481E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift */; };
 		1A9C1A4B1E09303600D4525D /* JSONBackedProducerProfileStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A4A1E09303600D4525D /* JSONBackedProducerProfileStats.swift */; };
+		1A9C1A4D1E0931A800D4525D /* HiliteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A4C1E0931A800D4525D /* HiliteError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		1A9C1A461E092FB900D4525D /* JSONBackedPlayerProfileSocialCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONBackedPlayerProfileSocialCard.swift; sourceTree = "<group>"; };
 		1A9C1A481E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONBackedCharityIdentityCard.swift; sourceTree = "<group>"; };
 		1A9C1A4A1E09303600D4525D /* JSONBackedProducerProfileStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONBackedProducerProfileStats.swift; sourceTree = "<group>"; };
+		1A9C1A4C1E0931A800D4525D /* HiliteError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiliteError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				1A9C1A331E0922B800D4525D /* APIv2.swift */,
 				1A9C1A3A1E092D2D00D4525D /* ApplicationPreferences.swift */,
 				1A9C1A3B1E092D2D00D4525D /* ApplicationPreferencesBackedUserSession.swift */,
+				1A9C1A4C1E0931A800D4525D /* HiliteError.swift */,
 				1A9C1A1E1E091D5300D4525D /* CharityIdentityCard.swift */,
 				1A9C1A361E0923F800D4525D /* Environment.swift */,
 				1A9C1A011E09195800D4525D /* HiliteCore.h */,
@@ -263,6 +266,7 @@
 				1A9C1A261E091E3100D4525D /* PlayerProfileCard.swift in Sources */,
 				1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */,
 				1A9C1A3F1E092DCE00D4525D /* UserSession.swift in Sources */,
+				1A9C1A4D1E0931A800D4525D /* HiliteError.swift in Sources */,
 				1A9C1A451E092F3F00D4525D /* JSONBackedProducerProfile.swift in Sources */,
 				1A9C1A191E09198400D4525D /* UserIdentityCard.swift in Sources */,
 				1A9C1A351E0922B800D4525D /* APIv2.swift in Sources */,

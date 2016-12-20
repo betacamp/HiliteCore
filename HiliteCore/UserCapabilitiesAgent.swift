@@ -3,6 +3,9 @@ import Foundation
 public let DEFAULT_MAX_RECORD_TIME_IN_SECONDS:Float = 20
 
 public class UserCapabilitiesAgent {
+    
+    public init() { }
+    
     public func maxRecordTimeInSeconds() -> Float! {
         return ApplicationPreferences().maxRecordTimeInSeconds() ?? 20
     }

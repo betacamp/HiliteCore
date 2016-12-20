@@ -1,6 +1,9 @@
 import Foundation
 
 public class ApplicationPreferencesBackedUserSession: UserSession {
+    
+    public init() { }
+    
     public func loginWithUserId(_ userId: String?, username: String?, password: String?, firstName: String?, lastName: String?, charityDisplayName: String?, verticalHandle: String?) {
         if let unwrappedUserId = userId {
             ApplicationPreferences().setUserId(unwrappedUserId)
