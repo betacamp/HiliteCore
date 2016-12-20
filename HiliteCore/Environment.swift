@@ -1,10 +1,10 @@
 import Foundation
 
 public class Environment {
-    let bundleVersion: String
-    let bundleShortVersion: String
-    let configuration: String
-    let environments: NSDictionary
+    public let bundleVersion: String
+    public let bundleShortVersion: String
+    public let configuration: String
+    public let environments: NSDictionary
     
     public init() {
         configuration = Bundle.main.infoDictionary?["Configuration"] as! String
