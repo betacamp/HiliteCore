@@ -1,9 +1,9 @@
 import Foundation
 import SwiftyJSON
 
-typealias UserId = String
+public typealias UserId = String
 
-protocol UserIdentityCard {
+public protocol UserIdentityCard {
     func userId() -> UserId?
     func username() -> String?
     func email() -> String?

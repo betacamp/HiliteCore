@@ -11,6 +11,12 @@
 		1A9C1A0D1E09195800D4525D /* HiliteCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A0C1E09195800D4525D /* HiliteCoreTests.swift */; };
 		1A9C1A0F1E09195800D4525D /* HiliteCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9C1A011E09195800D4525D /* HiliteCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A9C1A191E09198400D4525D /* UserIdentityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A181E09198400D4525D /* UserIdentityCard.swift */; };
+		1A9C1A1B1E091D1400D4525D /* ProducerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A1A1E091D1400D4525D /* ProducerProfile.swift */; };
+		1A9C1A1D1E091D2200D4525D /* ProducerProfileStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A1C1E091D2200D4525D /* ProducerProfileStats.swift */; };
+		1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A1E1E091D5300D4525D /* CharityIdentityCard.swift */; };
+		1A9C1A261E091E3100D4525D /* PlayerProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A241E091E3100D4525D /* PlayerProfileCard.swift */; };
+		1A9C1A271E091E3100D4525D /* PlayerProfileSocialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A251E091E3100D4525D /* PlayerProfileSocialCard.swift */; };
+		1A9C1A291E091EA500D4525D /* TeamCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A281E091EA500D4525D /* TeamCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,12 @@
 		1A9C1A0C1E09195800D4525D /* HiliteCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiliteCoreTests.swift; sourceTree = "<group>"; };
 		1A9C1A0E1E09195800D4525D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9C1A181E09198400D4525D /* UserIdentityCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIdentityCard.swift; sourceTree = "<group>"; };
+		1A9C1A1A1E091D1400D4525D /* ProducerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerProfile.swift; sourceTree = "<group>"; };
+		1A9C1A1C1E091D2200D4525D /* ProducerProfileStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerProfileStats.swift; sourceTree = "<group>"; };
+		1A9C1A1E1E091D5300D4525D /* CharityIdentityCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharityIdentityCard.swift; sourceTree = "<group>"; };
+		1A9C1A241E091E3100D4525D /* PlayerProfileCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerProfileCard.swift; sourceTree = "<group>"; };
+		1A9C1A251E091E3100D4525D /* PlayerProfileSocialCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerProfileSocialCard.swift; sourceTree = "<group>"; };
+		1A9C1A281E091EA500D4525D /* TeamCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +85,15 @@
 		1A9C1A001E09195800D4525D /* HiliteCore */ = {
 			isa = PBXGroup;
 			children = (
-				1A9C1A181E09198400D4525D /* UserIdentityCard.swift */,
+				1A9C1A1E1E091D5300D4525D /* CharityIdentityCard.swift */,
 				1A9C1A011E09195800D4525D /* HiliteCore.h */,
 				1A9C1A021E09195800D4525D /* Info.plist */,
+				1A9C1A241E091E3100D4525D /* PlayerProfileCard.swift */,
+				1A9C1A251E091E3100D4525D /* PlayerProfileSocialCard.swift */,
+				1A9C1A1A1E091D1400D4525D /* ProducerProfile.swift */,
+				1A9C1A1C1E091D2200D4525D /* ProducerProfileStats.swift */,
+				1A9C1A281E091EA500D4525D /* TeamCard.swift */,
+				1A9C1A181E09198400D4525D /* UserIdentityCard.swift */,
 			);
 			path = HiliteCore;
 			sourceTree = "<group>";
@@ -202,7 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9C1A261E091E3100D4525D /* PlayerProfileCard.swift in Sources */,
+				1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */,
 				1A9C1A191E09198400D4525D /* UserIdentityCard.swift in Sources */,
+				1A9C1A271E091E3100D4525D /* PlayerProfileSocialCard.swift in Sources */,
+				1A9C1A291E091EA500D4525D /* TeamCard.swift in Sources */,
+				1A9C1A1B1E091D1400D4525D /* ProducerProfile.swift in Sources */,
+				1A9C1A1D1E091D2200D4525D /* ProducerProfileStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
