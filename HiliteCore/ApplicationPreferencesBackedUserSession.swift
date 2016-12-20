@@ -33,7 +33,7 @@ public class ApplicationPreferencesBackedUserSession: UserSession {
     public func isConsumer() -> Bool {
         return (self.verticalHandle() ?? "") == "consumer"
     }
-    public func loginWithUserIdentityCard(_ userIdentityCard: UserIdentityCard!) {
+    public func loginWithUserIdentityCard(_ userIdentityCard: UserIdentityCard) {
         self.loginWithUserId(userIdentityCard.userId(), username: userIdentityCard.username(), password: nil, firstName: userIdentityCard.firstName(), lastName: userIdentityCard.lastName(), charityDisplayName: userIdentityCard.charityDisplayName(), verticalHandle: userIdentityCard.verticalHandle())
     }
     

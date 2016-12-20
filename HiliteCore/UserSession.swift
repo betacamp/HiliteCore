@@ -1,7 +1,7 @@
 import Foundation
 
 public protocol UserSession {
-    func loginWithUserIdentityCard(_ userIdentityCard: UserIdentityCard!)
+    func loginWithUserIdentityCard(_ userIdentityCard: UserIdentityCard)
     func loginWithUserId(_ userId: String?, username: String?, password: String?, firstName: String?, lastName: String?, charityDisplayName: String?, verticalHandle: String?) -> Void
     func firstName() -> String?
     func lastName() -> String?
