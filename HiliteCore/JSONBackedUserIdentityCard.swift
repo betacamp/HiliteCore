@@ -65,9 +65,7 @@ public class JSONBackedUserIdentityCard: UserIdentityCard {
     public func updateEmail(_ newEmail: String?) {
         var jsonCopy:JSON = jsonUser                // ensure that json object is actually Mutable
         
-        print(jsonCopy["email"])
         jsonCopy["email"] = JSON(newEmail!)
-        print(jsonCopy["email"].string)
         
         self.jsonUser = jsonCopy
     }
@@ -79,10 +77,8 @@ public class JSONBackedUserIdentityCard: UserIdentityCard {
 //    }
 
     public func maxRecordingTimeInSeconds() -> Float? {
-        print(jsonUser)
         var maxRecordingTime:Float? = nil
         for (_, profileJson):(String, JSON) in jsonUser["producerProfile"] {
-            print(profileJson)
             if let maxTime = profileJson["capabilities"]["maxRecordTimeInSeconds"].float {
                 maxRecordingTime = maxTime
             }
@@ -101,7 +97,6 @@ public class JSONBackedUserIdentityCard: UserIdentityCard {
         if let profiles = self.producerProfile() {
             for (verticalHandle, profile) in profiles {
                 jsonCopy["producerProfile"][verticalHandle] = profile.toJSON()
-                print(jsonCopy["producerProfile"][verticalHandle])
             }
         }
         

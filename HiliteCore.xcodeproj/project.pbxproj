@@ -31,6 +31,12 @@
 		1A9C1A491E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A481E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift */; };
 		1A9C1A4B1E09303600D4525D /* JSONBackedProducerProfileStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A4A1E09303600D4525D /* JSONBackedProducerProfileStats.swift */; };
 		1A9C1A4D1E0931A800D4525D /* HiliteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9C1A4C1E0931A800D4525D /* HiliteError.swift */; };
+		1AFD22AC1E1F215F0040B659 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22AB1E1F215F0040B659 /* Task.swift */; };
+		1AFD22AE1E1F21780040B659 /* CapturedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22AD1E1F21780040B659 /* CapturedVideo.swift */; };
+		1AFD22B01E1F21D10040B659 /* PendingUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22AF1E1F21D10040B659 /* PendingUpload.swift */; };
+		1AFD22B21E1F22C30040B659 /* Recipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22B11E1F22C30040B659 /* Recipient.swift */; };
+		1AFD22B41E1F233B0040B659 /* Purchaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22B31E1F233B0040B659 /* Purchaser.swift */; };
+		1AFD22B61E1F238F0040B659 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22B51E1F238F0040B659 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,12 @@
 		1A9C1A481E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONBackedCharityIdentityCard.swift; sourceTree = "<group>"; };
 		1A9C1A4A1E09303600D4525D /* JSONBackedProducerProfileStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONBackedProducerProfileStats.swift; sourceTree = "<group>"; };
 		1A9C1A4C1E0931A800D4525D /* HiliteError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiliteError.swift; sourceTree = "<group>"; };
+		1AFD22AB1E1F215F0040B659 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		1AFD22AD1E1F21780040B659 /* CapturedVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturedVideo.swift; sourceTree = "<group>"; };
+		1AFD22AF1E1F21D10040B659 /* PendingUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingUpload.swift; sourceTree = "<group>"; };
+		1AFD22B11E1F22C30040B659 /* Recipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipient.swift; sourceTree = "<group>"; };
+		1AFD22B31E1F233B0040B659 /* Purchaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchaser.swift; sourceTree = "<group>"; };
+		1AFD22B51E1F238F0040B659 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,12 @@
 		1A9C1A001E09195800D4525D /* HiliteCore */ = {
 			isa = PBXGroup;
 			children = (
+				1AFD22B51E1F238F0040B659 /* FeedItem.swift */,
+				1AFD22B31E1F233B0040B659 /* Purchaser.swift */,
+				1AFD22B11E1F22C30040B659 /* Recipient.swift */,
+				1AFD22AF1E1F21D10040B659 /* PendingUpload.swift */,
+				1AFD22AD1E1F21780040B659 /* CapturedVideo.swift */,
+				1AFD22AB1E1F215F0040B659 /* Task.swift */,
 				1A9C1A321E0922B800D4525D /* APIv1.swift */,
 				1A9C1A331E0922B800D4525D /* APIv2.swift */,
 				1A9C1A3A1E092D2D00D4525D /* ApplicationPreferences.swift */,
@@ -262,12 +280,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFD22B21E1F22C30040B659 /* Recipient.swift in Sources */,
 				1A9C1A3D1E092D2D00D4525D /* ApplicationPreferencesBackedUserSession.swift in Sources */,
 				1A9C1A261E091E3100D4525D /* PlayerProfileCard.swift in Sources */,
+				1AFD22AE1E1F21780040B659 /* CapturedVideo.swift in Sources */,
 				1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */,
+				1AFD22B61E1F238F0040B659 /* FeedItem.swift in Sources */,
 				1A9C1A3F1E092DCE00D4525D /* UserSession.swift in Sources */,
+				1AFD22AC1E1F215F0040B659 /* Task.swift in Sources */,
 				1A9C1A4D1E0931A800D4525D /* HiliteError.swift in Sources */,
 				1A9C1A451E092F3F00D4525D /* JSONBackedProducerProfile.swift in Sources */,
+				1AFD22B01E1F21D10040B659 /* PendingUpload.swift in Sources */,
 				1A9C1A191E09198400D4525D /* UserIdentityCard.swift in Sources */,
 				1A9C1A351E0922B800D4525D /* APIv2.swift in Sources */,
 				1A9C1A271E091E3100D4525D /* PlayerProfileSocialCard.swift in Sources */,
@@ -281,6 +304,7 @@
 				1A9C1A411E092E3000D4525D /* UserCapabilitiesAgent.swift in Sources */,
 				1A9C1A471E092FB900D4525D /* JSONBackedPlayerProfileSocialCard.swift in Sources */,
 				1A9C1A341E0922B800D4525D /* APIv1.swift in Sources */,
+				1AFD22B41E1F233B0040B659 /* Purchaser.swift in Sources */,
 				1A9C1A371E0923F800D4525D /* Environment.swift in Sources */,
 				1A9C1A4B1E09303600D4525D /* JSONBackedProducerProfileStats.swift in Sources */,
 			);
@@ -492,6 +516,7 @@
 				1A9C1A141E09195800D4525D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A9C1A151E09195800D4525D /* Build configuration list for PBXNativeTarget "HiliteCoreTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +525,7 @@
 				1A9C1A171E09195800D4525D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
