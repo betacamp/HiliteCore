@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HiliteCore"
-  s.version      = "0.1.10-alpha"
+  s.version      = "0.1.11-alpha"
   s.summary      = "HiliteSDK Core module"
 
   # This description is used to generate tags and improve search results.
