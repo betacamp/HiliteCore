@@ -37,6 +37,18 @@
 		1AFD22B21E1F22C30040B659 /* Recipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22B11E1F22C30040B659 /* Recipient.swift */; };
 		1AFD22B41E1F233B0040B659 /* Purchaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22B31E1F233B0040B659 /* Purchaser.swift */; };
 		1AFD22B61E1F238F0040B659 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22B51E1F238F0040B659 /* FeedItem.swift */; };
+		1AFD22BC1E1F2BE90040B659 /* HLFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22BB1E1F2BE90040B659 /* HLFileManager.swift */; };
+		1AFD22BE1E1F2C450040B659 /* JSONBackedTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22BD1E1F2C450040B659 /* JSONBackedTask.swift */; };
+		1AFD22C01E1F2E900040B659 /* BroadcastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22BF1E1F2E900040B659 /* BroadcastService.swift */; };
+		1AFD22C21E1F33910040B659 /* TaskBackedPendingUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22C11E1F33910040B659 /* TaskBackedPendingUpload.swift */; };
+		1AFD22C61E1F38480040B659 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22C51E1F38480040B659 /* FileManager.swift */; };
+		1AFD22CA1E1F38FC0040B659 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22C91E1F38FC0040B659 /* Organization.swift */; };
+		1AFD22CD1E1F39550040B659 /* OrderJSONBackedPurchaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22CB1E1F39550040B659 /* OrderJSONBackedPurchaser.swift */; };
+		1AFD22CE1E1F39550040B659 /* OrderJSONBackedRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22CC1E1F39550040B659 /* OrderJSONBackedRecipient.swift */; };
+		1AFD22D01E1F3A610040B659 /* JsonBackedOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22CF1E1F3A610040B659 /* JsonBackedOrganization.swift */; };
+		1AFD22D21E1F3A700040B659 /* FileBackedCapturedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22D11E1F3A700040B659 /* FileBackedCapturedVideo.swift */; };
+		1AFD22D41E1F3AF80040B659 /* StandardCapturedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22D31E1F3AF80040B659 /* StandardCapturedVideo.swift */; };
+		1AFD22D61E1F3B600040B659 /* HLUUIDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22D51E1F3B600040B659 /* HLUUIDGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +95,18 @@
 		1AFD22B11E1F22C30040B659 /* Recipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipient.swift; sourceTree = "<group>"; };
 		1AFD22B31E1F233B0040B659 /* Purchaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchaser.swift; sourceTree = "<group>"; };
 		1AFD22B51E1F238F0040B659 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		1AFD22BB1E1F2BE90040B659 /* HLFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLFileManager.swift; sourceTree = "<group>"; };
+		1AFD22BD1E1F2C450040B659 /* JSONBackedTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONBackedTask.swift; sourceTree = "<group>"; };
+		1AFD22BF1E1F2E900040B659 /* BroadcastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastService.swift; sourceTree = "<group>"; };
+		1AFD22C11E1F33910040B659 /* TaskBackedPendingUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskBackedPendingUpload.swift; sourceTree = "<group>"; };
+		1AFD22C51E1F38480040B659 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		1AFD22C91E1F38FC0040B659 /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		1AFD22CB1E1F39550040B659 /* OrderJSONBackedPurchaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderJSONBackedPurchaser.swift; sourceTree = "<group>"; };
+		1AFD22CC1E1F39550040B659 /* OrderJSONBackedRecipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderJSONBackedRecipient.swift; sourceTree = "<group>"; };
+		1AFD22CF1E1F3A610040B659 /* JsonBackedOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonBackedOrganization.swift; sourceTree = "<group>"; };
+		1AFD22D11E1F3A700040B659 /* FileBackedCapturedVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileBackedCapturedVideo.swift; sourceTree = "<group>"; };
+		1AFD22D31E1F3AF80040B659 /* StandardCapturedVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardCapturedVideo.swift; sourceTree = "<group>"; };
+		1AFD22D51E1F3B600040B659 /* HLUUIDGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLUUIDGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +149,18 @@
 		1A9C1A001E09195800D4525D /* HiliteCore */ = {
 			isa = PBXGroup;
 			children = (
+				1AFD22D51E1F3B600040B659 /* HLUUIDGenerator.swift */,
+				1AFD22D31E1F3AF80040B659 /* StandardCapturedVideo.swift */,
+				1AFD22D11E1F3A700040B659 /* FileBackedCapturedVideo.swift */,
+				1AFD22CF1E1F3A610040B659 /* JsonBackedOrganization.swift */,
+				1AFD22CB1E1F39550040B659 /* OrderJSONBackedPurchaser.swift */,
+				1AFD22CC1E1F39550040B659 /* OrderJSONBackedRecipient.swift */,
+				1AFD22C91E1F38FC0040B659 /* Organization.swift */,
+				1AFD22C51E1F38480040B659 /* FileManager.swift */,
+				1AFD22C11E1F33910040B659 /* TaskBackedPendingUpload.swift */,
+				1AFD22BF1E1F2E900040B659 /* BroadcastService.swift */,
+				1AFD22BD1E1F2C450040B659 /* JSONBackedTask.swift */,
+				1AFD22BB1E1F2BE90040B659 /* HLFileManager.swift */,
 				1AFD22B51E1F238F0040B659 /* FeedItem.swift */,
 				1AFD22B31E1F233B0040B659 /* Purchaser.swift */,
 				1AFD22B11E1F22C30040B659 /* Recipient.swift */,
@@ -288,23 +324,35 @@
 				1AFD22B61E1F238F0040B659 /* FeedItem.swift in Sources */,
 				1A9C1A3F1E092DCE00D4525D /* UserSession.swift in Sources */,
 				1AFD22AC1E1F215F0040B659 /* Task.swift in Sources */,
+				1AFD22BE1E1F2C450040B659 /* JSONBackedTask.swift in Sources */,
 				1A9C1A4D1E0931A800D4525D /* HiliteError.swift in Sources */,
+				1AFD22BC1E1F2BE90040B659 /* HLFileManager.swift in Sources */,
 				1A9C1A451E092F3F00D4525D /* JSONBackedProducerProfile.swift in Sources */,
+				1AFD22CD1E1F39550040B659 /* OrderJSONBackedPurchaser.swift in Sources */,
 				1AFD22B01E1F21D10040B659 /* PendingUpload.swift in Sources */,
+				1AFD22D41E1F3AF80040B659 /* StandardCapturedVideo.swift in Sources */,
+				1AFD22CA1E1F38FC0040B659 /* Organization.swift in Sources */,
 				1A9C1A191E09198400D4525D /* UserIdentityCard.swift in Sources */,
 				1A9C1A351E0922B800D4525D /* APIv2.swift in Sources */,
+				1AFD22D61E1F3B600040B659 /* HLUUIDGenerator.swift in Sources */,
 				1A9C1A271E091E3100D4525D /* PlayerProfileSocialCard.swift in Sources */,
 				1A9C1A431E092E9800D4525D /* Logger.swift in Sources */,
+				1AFD22CE1E1F39550040B659 /* OrderJSONBackedRecipient.swift in Sources */,
+				1AFD22D21E1F3A700040B659 /* FileBackedCapturedVideo.swift in Sources */,
+				1AFD22C61E1F38480040B659 /* FileManager.swift in Sources */,
 				1A9C1A3C1E092D2D00D4525D /* ApplicationPreferences.swift in Sources */,
 				1A9C1A491E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift in Sources */,
 				1A9C1A291E091EA500D4525D /* TeamCard.swift in Sources */,
+				1AFD22D01E1F3A610040B659 /* JsonBackedOrganization.swift in Sources */,
 				1A9C1A1B1E091D1400D4525D /* ProducerProfile.swift in Sources */,
 				1A9C1A1D1E091D2200D4525D /* ProducerProfileStats.swift in Sources */,
 				1A9C1A391E092CCE00D4525D /* JSONBackedUserIdentityCard.swift in Sources */,
 				1A9C1A411E092E3000D4525D /* UserCapabilitiesAgent.swift in Sources */,
+				1AFD22C21E1F33910040B659 /* TaskBackedPendingUpload.swift in Sources */,
 				1A9C1A471E092FB900D4525D /* JSONBackedPlayerProfileSocialCard.swift in Sources */,
 				1A9C1A341E0922B800D4525D /* APIv1.swift in Sources */,
 				1AFD22B41E1F233B0040B659 /* Purchaser.swift in Sources */,
+				1AFD22C01E1F2E900040B659 /* BroadcastService.swift in Sources */,
 				1A9C1A371E0923F800D4525D /* Environment.swift in Sources */,
 				1A9C1A4B1E09303600D4525D /* JSONBackedProducerProfileStats.swift in Sources */,
 			);
