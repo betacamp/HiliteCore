@@ -1,8 +1,8 @@
 import Foundation
 
-typealias TaskId = String
+public typealias TaskId = String
 
-protocol Task: FeedItem {
+public protocol Task: FeedItem {
     func id() -> TaskId?
     func teleprompterText() -> String?
     func purchaser() -> Purchaser?
