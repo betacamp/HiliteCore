@@ -54,7 +54,6 @@
 		1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */; };
 		1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23061E207CF10040B659 /* Suspendable.swift */; };
 		1AFD230B1E209BFA0040B659 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD230A1E209BFA0040B659 /* Device.swift */; };
-		1AFD233B1E20A7B10040B659 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD233A1E20A7B10040B659 /* AssetManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,7 +117,6 @@
 		1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingUploadJsonBackedRecipient.swift; sourceTree = "<group>"; };
 		1AFD23061E207CF10040B659 /* Suspendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suspendable.swift; sourceTree = "<group>"; };
 		1AFD230A1E209BFA0040B659 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		1AFD233A1E20A7B10040B659 /* AssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +205,6 @@
 				1A9C1A401E092E3000D4525D /* UserCapabilitiesAgent.swift */,
 				1A9C1A181E09198400D4525D /* UserIdentityCard.swift */,
 				1A9C1A3E1E092DCE00D4525D /* UserSession.swift */,
-				1AFD233A1E20A7B10040B659 /* AssetManager.swift */,
 			);
 			path = HiliteCore;
 			sourceTree = "<group>";
@@ -372,7 +369,6 @@
 				1A9C1A391E092CCE00D4525D /* JSONBackedUserIdentityCard.swift in Sources */,
 				1A9C1A411E092E3000D4525D /* UserCapabilitiesAgent.swift in Sources */,
 				1AFD22C21E1F33910040B659 /* TaskBackedPendingUpload.swift in Sources */,
-				1AFD233B1E20A7B10040B659 /* AssetManager.swift in Sources */,
 				1A9C1A471E092FB900D4525D /* JSONBackedPlayerProfileSocialCard.swift in Sources */,
 				1A9C1A341E0922B800D4525D /* APIv1.swift in Sources */,
 				1AFD22B41E1F233B0040B659 /* Purchaser.swift in Sources */,
