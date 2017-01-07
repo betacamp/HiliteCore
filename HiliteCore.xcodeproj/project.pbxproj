@@ -52,6 +52,7 @@
 		1AFD22D81E1F3F1A0040B659 /* JSONBackedPendingUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22D71E1F3F1A0040B659 /* JSONBackedPendingUpload.swift */; };
 		1AFD22DB1E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22D91E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift */; };
 		1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */; };
+		1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23061E207CF10040B659 /* Suspendable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		1AFD22D71E1F3F1A0040B659 /* JSONBackedPendingUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONBackedPendingUpload.swift; sourceTree = "<group>"; };
 		1AFD22D91E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingUploadJsonBackedPurchaser.swift; sourceTree = "<group>"; };
 		1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingUploadJsonBackedRecipient.swift; sourceTree = "<group>"; };
+		1AFD23061E207CF10040B659 /* Suspendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suspendable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				1AFD22D91E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift */,
+				1AFD23061E207CF10040B659 /* Suspendable.swift */,
 				1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */,
 				1AFD22D71E1F3F1A0040B659 /* JSONBackedPendingUpload.swift */,
 				1AFD22D51E1F3B600040B659 /* HLUUIDGenerator.swift */,
@@ -329,6 +332,7 @@
 				1A9C1A3D1E092D2D00D4525D /* ApplicationPreferencesBackedUserSession.swift in Sources */,
 				1A9C1A261E091E3100D4525D /* PlayerProfileCard.swift in Sources */,
 				1AFD22AE1E1F21780040B659 /* CapturedVideo.swift in Sources */,
+				1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */,
 				1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */,
 				1AFD22B61E1F238F0040B659 /* FeedItem.swift in Sources */,
 				1AFD22DB1E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift in Sources */,
