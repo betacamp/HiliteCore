@@ -54,6 +54,20 @@
 		1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */; };
 		1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23061E207CF10040B659 /* Suspendable.swift */; };
 		1AFD230B1E209BFA0040B659 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD230A1E209BFA0040B659 /* Device.swift */; };
+		1AFD23231E20A3560040B659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23221E20A3560040B659 /* ViewController.swift */; };
+		1AFD23291E20A3750040B659 /* PortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23241E20A3750040B659 /* PortraitNavigationController.swift */; };
+		1AFD232A1E20A3750040B659 /* PortraitTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23251E20A3750040B659 /* PortraitTabBarController.swift */; };
+		1AFD232B1E20A3750040B659 /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23261E20A3750040B659 /* PortraitViewController.swift */; };
+		1AFD232C1E20A3750040B659 /* PresentFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23271E20A3750040B659 /* PresentFrom.swift */; };
+		1AFD232D1E20A3750040B659 /* PresentsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23281E20A3750040B659 /* PresentsViewControllers.swift */; };
+		1AFD232F1E20A3B30040B659 /* HLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD232E1E20A3B30040B659 /* HLNavigationController.swift */; };
+		1AFD23311E20A5930040B659 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23301E20A5930040B659 /* BaseViewController.swift */; };
+		1AFD23331E20A6580040B659 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23321E20A6580040B659 /* ImageView.swift */; };
+		1AFD23351E20A6F00040B659 /* ShowsAsLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23341E20A6F00040B659 /* ShowsAsLoading.swift */; };
+		1AFD23371E20A70B0040B659 /* HLColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23361E20A70B0040B659 /* HLColor.swift */; };
+		1AFD233B1E20A7B10040B659 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD233A1E20A7B10040B659 /* AssetManager.swift */; };
+		1AFD233D1E20AE590040B659 /* HLAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD233C1E20AE590040B659 /* HLAutoLayout.swift */; };
+		1AFD23431E20B0710040B659 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23421E20B0710040B659 /* Runtime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +131,20 @@
 		1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingUploadJsonBackedRecipient.swift; sourceTree = "<group>"; };
 		1AFD23061E207CF10040B659 /* Suspendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suspendable.swift; sourceTree = "<group>"; };
 		1AFD230A1E209BFA0040B659 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		1AFD23221E20A3560040B659 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AFD23241E20A3750040B659 /* PortraitNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitNavigationController.swift; sourceTree = "<group>"; };
+		1AFD23251E20A3750040B659 /* PortraitTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitTabBarController.swift; sourceTree = "<group>"; };
+		1AFD23261E20A3750040B659 /* PortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitViewController.swift; sourceTree = "<group>"; };
+		1AFD23271E20A3750040B659 /* PresentFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFrom.swift; sourceTree = "<group>"; };
+		1AFD23281E20A3750040B659 /* PresentsViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentsViewControllers.swift; sourceTree = "<group>"; };
+		1AFD232E1E20A3B30040B659 /* HLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLNavigationController.swift; sourceTree = "<group>"; };
+		1AFD23301E20A5930040B659 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1AFD23321E20A6580040B659 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		1AFD23341E20A6F00040B659 /* ShowsAsLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowsAsLoading.swift; sourceTree = "<group>"; };
+		1AFD23361E20A70B0040B659 /* HLColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLColor.swift; sourceTree = "<group>"; };
+		1AFD233A1E20A7B10040B659 /* AssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
+		1AFD233C1E20AE590040B659 /* HLAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLAutoLayout.swift; sourceTree = "<group>"; };
+		1AFD23421E20B0710040B659 /* Runtime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +187,19 @@
 		1A9C1A001E09195800D4525D /* HiliteCore */ = {
 			isa = PBXGroup;
 			children = (
+				1AFD23421E20B0710040B659 /* Runtime.swift */,
+				1AFD233C1E20AE590040B659 /* HLAutoLayout.swift */,
+				1AFD23361E20A70B0040B659 /* HLColor.swift */,
+				1AFD23341E20A6F00040B659 /* ShowsAsLoading.swift */,
+				1AFD23321E20A6580040B659 /* ImageView.swift */,
+				1AFD23301E20A5930040B659 /* BaseViewController.swift */,
+				1AFD232E1E20A3B30040B659 /* HLNavigationController.swift */,
+				1AFD23241E20A3750040B659 /* PortraitNavigationController.swift */,
+				1AFD23251E20A3750040B659 /* PortraitTabBarController.swift */,
+				1AFD23261E20A3750040B659 /* PortraitViewController.swift */,
+				1AFD23271E20A3750040B659 /* PresentFrom.swift */,
+				1AFD23281E20A3750040B659 /* PresentsViewControllers.swift */,
+				1AFD23221E20A3560040B659 /* ViewController.swift */,
 				1AFD230A1E209BFA0040B659 /* Device.swift */,
 				1AFD22D91E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift */,
 				1AFD23061E207CF10040B659 /* Suspendable.swift */,
@@ -205,6 +246,7 @@
 				1A9C1A401E092E3000D4525D /* UserCapabilitiesAgent.swift */,
 				1A9C1A181E09198400D4525D /* UserIdentityCard.swift */,
 				1A9C1A3E1E092DCE00D4525D /* UserSession.swift */,
+				1AFD233A1E20A7B10040B659 /* AssetManager.swift */,
 			);
 			path = HiliteCore;
 			sourceTree = "<group>";
@@ -281,7 +323,7 @@
 					1A9C19FD1E09195800D4525D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2YGXD93C2Y;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					1A9C1A061E09195800D4525D = {
@@ -331,9 +373,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFD232C1E20A3750040B659 /* PresentFrom.swift in Sources */,
 				1AFD22B21E1F22C30040B659 /* Recipient.swift in Sources */,
 				1A9C1A3D1E092D2D00D4525D /* ApplicationPreferencesBackedUserSession.swift in Sources */,
 				1A9C1A261E091E3100D4525D /* PlayerProfileCard.swift in Sources */,
+				1AFD23331E20A6580040B659 /* ImageView.swift in Sources */,
 				1AFD22AE1E1F21780040B659 /* CapturedVideo.swift in Sources */,
 				1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */,
 				1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */,
@@ -341,12 +385,15 @@
 				1AFD22DB1E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift in Sources */,
 				1A9C1A3F1E092DCE00D4525D /* UserSession.swift in Sources */,
 				1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */,
+				1AFD232F1E20A3B30040B659 /* HLNavigationController.swift in Sources */,
 				1AFD22AC1E1F215F0040B659 /* Task.swift in Sources */,
+				1AFD23311E20A5930040B659 /* BaseViewController.swift in Sources */,
 				1AFD230B1E209BFA0040B659 /* Device.swift in Sources */,
 				1AFD22BE1E1F2C450040B659 /* JSONBackedTask.swift in Sources */,
 				1A9C1A4D1E0931A800D4525D /* HiliteError.swift in Sources */,
 				1AFD22BC1E1F2BE90040B659 /* HLFileManager.swift in Sources */,
 				1A9C1A451E092F3F00D4525D /* JSONBackedProducerProfile.swift in Sources */,
+				1AFD23291E20A3750040B659 /* PortraitNavigationController.swift in Sources */,
 				1AFD22CD1E1F39550040B659 /* OrderJSONBackedPurchaser.swift in Sources */,
 				1AFD22B01E1F21D10040B659 /* PendingUpload.swift in Sources */,
 				1AFD22D41E1F3AF80040B659 /* StandardCapturedVideo.swift in Sources */,
@@ -355,22 +402,31 @@
 				1A9C1A351E0922B800D4525D /* APIv2.swift in Sources */,
 				1AFD22D61E1F3B600040B659 /* HLUUIDGenerator.swift in Sources */,
 				1A9C1A271E091E3100D4525D /* PlayerProfileSocialCard.swift in Sources */,
+				1AFD232A1E20A3750040B659 /* PortraitTabBarController.swift in Sources */,
 				1A9C1A431E092E9800D4525D /* Logger.swift in Sources */,
+				1AFD23371E20A70B0040B659 /* HLColor.swift in Sources */,
+				1AFD232D1E20A3750040B659 /* PresentsViewControllers.swift in Sources */,
 				1AFD22CE1E1F39550040B659 /* OrderJSONBackedRecipient.swift in Sources */,
 				1AFD22D21E1F3A700040B659 /* FileBackedCapturedVideo.swift in Sources */,
 				1AFD22C61E1F38480040B659 /* FileManager.swift in Sources */,
 				1A9C1A3C1E092D2D00D4525D /* ApplicationPreferences.swift in Sources */,
 				1A9C1A491E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift in Sources */,
+				1AFD23231E20A3560040B659 /* ViewController.swift in Sources */,
 				1A9C1A291E091EA500D4525D /* TeamCard.swift in Sources */,
 				1AFD22D01E1F3A610040B659 /* JsonBackedOrganization.swift in Sources */,
 				1A9C1A1B1E091D1400D4525D /* ProducerProfile.swift in Sources */,
+				1AFD233D1E20AE590040B659 /* HLAutoLayout.swift in Sources */,
+				1AFD23351E20A6F00040B659 /* ShowsAsLoading.swift in Sources */,
 				1A9C1A1D1E091D2200D4525D /* ProducerProfileStats.swift in Sources */,
 				1AFD22D81E1F3F1A0040B659 /* JSONBackedPendingUpload.swift in Sources */,
 				1A9C1A391E092CCE00D4525D /* JSONBackedUserIdentityCard.swift in Sources */,
 				1A9C1A411E092E3000D4525D /* UserCapabilitiesAgent.swift in Sources */,
 				1AFD22C21E1F33910040B659 /* TaskBackedPendingUpload.swift in Sources */,
+				1AFD233B1E20A7B10040B659 /* AssetManager.swift in Sources */,
+				1AFD23431E20B0710040B659 /* Runtime.swift in Sources */,
 				1A9C1A471E092FB900D4525D /* JSONBackedPlayerProfileSocialCard.swift in Sources */,
 				1A9C1A341E0922B800D4525D /* APIv1.swift in Sources */,
+				1AFD232B1E20A3750040B659 /* PortraitViewController.swift in Sources */,
 				1AFD22B41E1F233B0040B659 /* Purchaser.swift in Sources */,
 				1AFD22C01E1F2E900040B659 /* BroadcastService.swift in Sources */,
 				1A9C1A371E0923F800D4525D /* Environment.swift in Sources */,
