@@ -53,6 +53,7 @@
 		1AFD22DB1E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22D91E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift */; };
 		1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */; };
 		1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23061E207CF10040B659 /* Suspendable.swift */; };
+		1AFD230B1E209BFA0040B659 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD230A1E209BFA0040B659 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		1AFD22D91E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingUploadJsonBackedPurchaser.swift; sourceTree = "<group>"; };
 		1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingUploadJsonBackedRecipient.swift; sourceTree = "<group>"; };
 		1AFD23061E207CF10040B659 /* Suspendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suspendable.swift; sourceTree = "<group>"; };
+		1AFD230A1E209BFA0040B659 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		1A9C1A001E09195800D4525D /* HiliteCore */ = {
 			isa = PBXGroup;
 			children = (
+				1AFD230A1E209BFA0040B659 /* Device.swift */,
 				1AFD22D91E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift */,
 				1AFD23061E207CF10040B659 /* Suspendable.swift */,
 				1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */,
@@ -339,6 +342,7 @@
 				1A9C1A3F1E092DCE00D4525D /* UserSession.swift in Sources */,
 				1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */,
 				1AFD22AC1E1F215F0040B659 /* Task.swift in Sources */,
+				1AFD230B1E209BFA0040B659 /* Device.swift in Sources */,
 				1AFD22BE1E1F2C450040B659 /* JSONBackedTask.swift in Sources */,
 				1A9C1A4D1E0931A800D4525D /* HiliteError.swift in Sources */,
 				1AFD22BC1E1F2BE90040B659 /* HLFileManager.swift in Sources */,
