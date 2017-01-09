@@ -54,6 +54,9 @@
 		1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */; };
 		1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23061E207CF10040B659 /* Suspendable.swift */; };
 		1AFD230B1E209BFA0040B659 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD230A1E209BFA0040B659 /* Device.swift */; };
+		1AFD239C1E241E160040B659 /* TaskAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD239B1E241E160040B659 /* TaskAgent.swift */; };
+		1AFD239E1E241E1C0040B659 /* TaskAgentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD239D1E241E1C0040B659 /* TaskAgentDelegate.swift */; };
+		1AFD23A21E241EF30040B659 /* PresentFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23A11E241EF30040B659 /* PresentFrom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,9 @@
 		1AFD22DA1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingUploadJsonBackedRecipient.swift; sourceTree = "<group>"; };
 		1AFD23061E207CF10040B659 /* Suspendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suspendable.swift; sourceTree = "<group>"; };
 		1AFD230A1E209BFA0040B659 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		1AFD239B1E241E160040B659 /* TaskAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAgent.swift; sourceTree = "<group>"; };
+		1AFD239D1E241E1C0040B659 /* TaskAgentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAgentDelegate.swift; sourceTree = "<group>"; };
+		1AFD23A11E241EF30040B659 /* PresentFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFrom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,9 @@
 		1A9C1A001E09195800D4525D /* HiliteCore */ = {
 			isa = PBXGroup;
 			children = (
+				1AFD23A11E241EF30040B659 /* PresentFrom.swift */,
+				1AFD239D1E241E1C0040B659 /* TaskAgentDelegate.swift */,
+				1AFD239B1E241E160040B659 /* TaskAgent.swift */,
 				1AFD230A1E209BFA0040B659 /* Device.swift */,
 				1AFD22D91E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift */,
 				1AFD23061E207CF10040B659 /* Suspendable.swift */,
@@ -338,6 +347,7 @@
 				1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */,
 				1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */,
 				1AFD22B61E1F238F0040B659 /* FeedItem.swift in Sources */,
+				1AFD23A21E241EF30040B659 /* PresentFrom.swift in Sources */,
 				1AFD22DB1E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift in Sources */,
 				1A9C1A3F1E092DCE00D4525D /* UserSession.swift in Sources */,
 				1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */,
@@ -349,6 +359,7 @@
 				1A9C1A451E092F3F00D4525D /* JSONBackedProducerProfile.swift in Sources */,
 				1AFD22CD1E1F39550040B659 /* OrderJSONBackedPurchaser.swift in Sources */,
 				1AFD22B01E1F21D10040B659 /* PendingUpload.swift in Sources */,
+				1AFD239C1E241E160040B659 /* TaskAgent.swift in Sources */,
 				1AFD22D41E1F3AF80040B659 /* StandardCapturedVideo.swift in Sources */,
 				1AFD22CA1E1F38FC0040B659 /* Organization.swift in Sources */,
 				1A9C1A191E09198400D4525D /* UserIdentityCard.swift in Sources */,
@@ -359,6 +370,7 @@
 				1AFD22CE1E1F39550040B659 /* OrderJSONBackedRecipient.swift in Sources */,
 				1AFD22D21E1F3A700040B659 /* FileBackedCapturedVideo.swift in Sources */,
 				1AFD22C61E1F38480040B659 /* FileManager.swift in Sources */,
+				1AFD239E1E241E1C0040B659 /* TaskAgentDelegate.swift in Sources */,
 				1A9C1A3C1E092D2D00D4525D /* ApplicationPreferences.swift in Sources */,
 				1A9C1A491E092FEF00D4525D /* JSONBackedCharityIdentityCard.swift in Sources */,
 				1A9C1A291E091EA500D4525D /* TeamCard.swift in Sources */,
