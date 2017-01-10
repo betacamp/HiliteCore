@@ -8,11 +8,15 @@ public enum BroadcastServiceUserKey : NSString {
 open class BroadcastService {
     fileprivate var observers: [AnyObject] = []
     
+    public init() {
+        
+    }
+    
     deinit {
         deregisterObservers()
     }
     
-    public func deregisterObservers() {
+    open func deregisterObservers() {
         for observer in observers {
             NotificationCenter.default.removeObserver(observer)
         }
