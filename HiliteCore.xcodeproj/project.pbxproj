@@ -56,6 +56,7 @@
 		1AFD230B1E209BFA0040B659 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD230A1E209BFA0040B659 /* Device.swift */; };
 		1AFD239C1E241E160040B659 /* TaskAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD239B1E241E160040B659 /* TaskAgent.swift */; };
 		1AFD239E1E241E1C0040B659 /* TaskAgentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD239D1E241E1C0040B659 /* TaskAgentDelegate.swift */; };
+		1AFD23AA1E246B870040B659 /* PresentFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD23A91E246B870040B659 /* PresentFrom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,7 @@
 		1AFD230A1E209BFA0040B659 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		1AFD239B1E241E160040B659 /* TaskAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAgent.swift; sourceTree = "<group>"; };
 		1AFD239D1E241E1C0040B659 /* TaskAgentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAgentDelegate.swift; sourceTree = "<group>"; };
+		1AFD23A91E246B870040B659 /* PresentFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFrom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 				1A9C1A401E092E3000D4525D /* UserCapabilitiesAgent.swift */,
 				1A9C1A181E09198400D4525D /* UserIdentityCard.swift */,
 				1A9C1A3E1E092DCE00D4525D /* UserSession.swift */,
+				1AFD23A91E246B870040B659 /* PresentFrom.swift */,
 			);
 			path = HiliteCore;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				1AFD23071E207CF10040B659 /* Suspendable.swift in Sources */,
 				1A9C1A1F1E091D5300D4525D /* CharityIdentityCard.swift in Sources */,
 				1AFD22B61E1F238F0040B659 /* FeedItem.swift in Sources */,
+				1AFD23AA1E246B870040B659 /* PresentFrom.swift in Sources */,
 				1AFD22DB1E1F3FA80040B659 /* PendingUploadJsonBackedPurchaser.swift in Sources */,
 				1A9C1A3F1E092DCE00D4525D /* UserSession.swift in Sources */,
 				1AFD22DC1E1F3FA80040B659 /* PendingUploadJsonBackedRecipient.swift in Sources */,
