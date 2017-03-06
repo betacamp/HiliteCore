@@ -12,6 +12,10 @@ public class JSONBackedTask: Task {
         return taskJSON["id"].stringValue
     }
     
+    public func displayName() -> String? {
+        return taskJSON["uid"].string
+    }
+    
     public func teleprompterText() -> String? {
         return taskJSON["teleprompter"].stringValue
     }
